@@ -1,0 +1,36 @@
+.container{
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(23, 137, 243);
+    border-radius: 1em;
+    box-shadow: 3px 2px 2px black
+    
+
+}
+.display-box{
+    width: 100%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: solid white 1px;
+    color: black;
+    box-shadow: 2px 2px 2px black;
+    
+    
+}
+.button{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #000000;
+    outline: none;
+}
+.button:active{
+    background: rgb(230, 225, 225);
+}
